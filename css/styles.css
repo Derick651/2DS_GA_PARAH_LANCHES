@@ -10,10 +10,15 @@
     padding: 70px;
 }
 
+.container{
+    display:flex;
+    justify-content: center;
+}
+
 .img {
     width: 100px;
     height: 100px;
-    
+    border-radius: 10px;
 }
 
 .img :hover {
