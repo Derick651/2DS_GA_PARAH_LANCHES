@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    margin: 10% auto;
+    border: dotted 10px black;
+    padding: 70px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.produtos img {
+    width: 100px;
+    height: 100px;
+    
+}
+
+.produtos img :hover {
+    transform: scale(1.25);
+}
+
+.titulo_produto{
+    font-size: 12px;
+    font-weight: bold ;
+    color: darkgray;
+}
