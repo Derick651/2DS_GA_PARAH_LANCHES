@@ -15,15 +15,14 @@
 }
 
 .produto {
+ display: flex;
 justify-content: center;
-display: flex;
 padding: 10px;
 }
 
 .produtos_img {
     width: 100px;
-    height: 100px;
-    
+    height: 100px; 
 }
 
 .produtos_img :hover {
@@ -41,26 +40,28 @@ padding: 10px;
 }
 
 .descr_produto {
-    text-align: center;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    text-align: center;
     align-items: center;
     font-size: 12px;
     color: darkgray;
 }
 
 .btn_somar{
-    justify-content: center;
     display: flex;
-    width: 20px;
-    height: 20px;
-    background-color: chocolate;
-}
+    justify-content: center;
+};
+
+ .qtd_prod{
+    display: flex;
+    justify-content: center;
+ }
 
  .btn_subtrair{
-    justify-content: center;
     display: flex;
-    width: 20px;
-    height: 20px;
-    background-color: chocolate;
- }
+    justify-content: center;
+ };
+
+
+
